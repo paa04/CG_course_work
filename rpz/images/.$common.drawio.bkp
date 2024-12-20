@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Страница — 1" id="0hWyogmGe7SrIXSoY2x4">
+    <mxGraphModel dx="1368" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="620" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EtNpboNzgzFYxf1gamre-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-1" target="EtNpboNzgzFYxf1gamre-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-1" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="150" height="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-2" target="EtNpboNzgzFYxf1gamre-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-2" value="Создание матрицы C, размером n на m" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83.75" y="180" width="142.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-3" target="EtNpboNzgzFYxf1gamre-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-3" value="i = 0 до n - 1" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-4" target="EtNpboNzgzFYxf1gamre-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-4" value="j = 0 до m - 1" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-5" target="EtNpboNzgzFYxf1gamre-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-5" value="k = 0 до t - 1" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-7" target="EtNpboNzgzFYxf1gamre-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-7" value="C[i][j] = С[i][j] + A[i][k] *&lt;div&gt;* B[k][j]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-8" target="EtNpboNzgzFYxf1gamre-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-8" value="Конец цикла по k" style="shape=loopLimit;whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="150" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-9" target="EtNpboNzgzFYxf1gamre-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-9" value="Конец цикла по j" style="shape=loopLimit;whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="150" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-10" value="Конец цикла по i" style="shape=loopLimit;whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="150" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-20" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="980" width="150" height="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-10" target="EtNpboNzgzFYxf1gamre-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70.25" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-24" value="Простой алгоитм умножения матриц&lt;div&gt;Вход: две матрицы A и B,&lt;/div&gt;&lt;div&gt;с размерностями n x t и t x m соответственно&lt;/div&gt;&lt;div&gt;Выход: матрица C размерности n x m&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="85.25" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EtNpboNzgzFYxf1gamre-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EtNpboNzgzFYxf1gamre-1" target="EtNpboNzgzFYxf1gamre-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
